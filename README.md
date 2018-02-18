@@ -257,7 +257,8 @@ Go ahead and run the application.
 
 ![Login Page](_images/2_bootstrap4_Login.png "Basic App")
 
-![Home Page](_images/3_bootstrap4_Landing_page.png "Basic App")
+
+![Home Page](_images/3_bootstrap4_Landing_Page.png "Basic App")
 
 
 ## Extract Top Navigation as a new Component
