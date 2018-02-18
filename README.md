@@ -33,7 +33,7 @@ Navigate to http://localhost4200 and make sure the app is running.
 ```
 npm install --save bootstrap
 ```
-Let's also install [ng-bootstrap](https://ng-bootstrap.github.io/#/home). This will be needed for the Regular Bootstrap compoents to continue working undder Angular environment.
+Let's also install [ng-bootstrap](https://ng-bootstrap.github.io/#/home). This will be needed for the Regular Bootstrap components to continue working under Angular environment.
 
 ```
 npm install --save @ng-bootstrap/ng-bootstrap
@@ -257,9 +257,10 @@ Go ahead and run the application.
 
 ![Login Page](_images/2_bootstrap4_Login.png "Basic App")
 
-![Basic NG5 Cli App](_images/3_bootstrap4_Landing_page.png "Basic App")
+![Home Page](_images/3_bootstrap4_Landing_page.png "Basic App")
 
-##Extract Top Navigation as a new Component
+
+## Extract Top Navigation as a new Component
 
 Okey, so everything is working as expected except one thing. The TopNav's HTML mark up is part off Home component which is extendable at all. And what I mean by that is, when you add a new Secure page and needs to have a TopNav you will have to copy/paste same markup in that new component as well. 
 
