@@ -10,6 +10,7 @@ import { HomeComponent } from './secure/home/home.component';
 import { RouterModule, Routes } from '@angular/router';
 import { PublicComponent } from './layout/public/public.component';
 import { SecureComponent } from './layout/secure/secure.component';
+import { NotFoundComponent } from './components/not-found/not-found.component';
 
 
 
@@ -21,7 +22,8 @@ import { SecureComponent } from './layout/secure/secure.component';
     LoginComponent,
     HomeComponent,
     PublicComponent,
-    SecureComponent
+    SecureComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,
